@@ -1,15 +1,6 @@
-pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                sh 'echo build'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'date'
-            }
-        }
-    }
-}
+@Library('jenkins-shared-library) _
+         
+ pipelineStandard {
+ agent = 'diana'
+ nomre= 'felipe'
+ }
