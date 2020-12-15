@@ -1,6 +1,5 @@
 @Library('jenkins-shared-library') _
          
  pipelineStandard {
- agent = 'diana',
- nombre= 'alejandro'
+         nombre= 'alejandro'
  }
