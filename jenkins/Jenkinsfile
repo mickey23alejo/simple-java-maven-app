@@ -2,5 +2,4 @@
          
  pipelineStandard {
  agent = 'diana'
- nomre= 'felipe'
  }
