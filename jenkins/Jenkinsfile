@@ -1,5 +1,5 @@
 @Library('jenkins-shared-library') _
          
- pipelineStandard1 {
+ pipelineStandard {
          nombre= 'Sofia'
  }
