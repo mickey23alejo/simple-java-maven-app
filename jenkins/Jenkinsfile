@@ -1,5 +1,6 @@
 @Library('jenkins-shared-library') _
          
- pipelineStandard1 {
-         nombre= 'Sofia'
- }
+ //pipelineStandard1 {
+ //        nombre= 'Sofia'
+ //}
+evenOrOdd(currentBuild.getNumber())
