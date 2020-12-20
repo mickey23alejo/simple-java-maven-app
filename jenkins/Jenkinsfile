@@ -1,13 +1,15 @@
 @Library('jenkins-shared-library') _
 
-myDeliveryPipeline {
+evenOrOdd(currentBuild.getNumber())
+
+/*myDeliveryPipeline {
   name = "Alejandro"
-}
+}*/
          
  //pipelineStandard1 {
  //        nombre= 'Sofia'
 // }
-//evenOrOdd(currentBuild.getNumber())
+
 /*evenOrOdd{
    numeroEjecucion = currentBuild.getNumber()      
 }*/
