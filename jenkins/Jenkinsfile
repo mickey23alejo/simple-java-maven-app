@@ -3,7 +3,7 @@
 //evenOrOdd(currentBuild.getNumber())
 
 myDeliveryPipeline {
-  name = "cargamasiva"
+  name = "testcargamasiva"
 }
          
  //pipelineStandard1 {
