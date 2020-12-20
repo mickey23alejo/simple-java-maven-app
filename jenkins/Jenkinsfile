@@ -4,6 +4,10 @@
  //        nombre= 'Sofia'
 // }
 //evenOrOdd(currentBuild.getNumber())
-evenOrOdd{
+/*evenOrOdd{
    numeroEjecucion = currentBuild.getNumber()      
+}*/
+
+myDeliveryPipeline {
+         name = 'Alejandro'
 }
