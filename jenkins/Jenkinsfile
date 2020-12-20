@@ -1,4 +1,8 @@
 @Library('jenkins-shared-library') _
+
+myDeliveryPipeline {
+         name = 'Alejandro'
+}
          
  //pipelineStandard1 {
  //        nombre= 'Sofia'
@@ -8,6 +12,4 @@
    numeroEjecucion = currentBuild.getNumber()      
 }*/
 
-myDeliveryPipeline {
-         name = 'Alejandro'
-}
+
