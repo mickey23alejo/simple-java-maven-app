@@ -4,7 +4,7 @@
 
 myDeliveryPipeline {
   name = "testcargamasiva"
-  urlYaml = "http://192.3.50.170:8081/repository/maven-releases/pryqa/cadcargamasiva/v1/cadcargamasiva-v1-kubernetes.yaml"
+  //urlYaml = "http://192.3.50.170:8081/repository/maven-releases/pryqa/cadcargamasiva/v1/cadcargamasiva-v1-kubernetes.yaml"
 }
          
  //pipelineStandard1 {
