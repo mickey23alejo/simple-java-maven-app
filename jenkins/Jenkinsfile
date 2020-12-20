@@ -2,8 +2,8 @@
          
  //pipelineStandard1 {
  //        nombre= 'Sofia'
- //}
+// }
 //evenOrOdd(currentBuild.getNumber())
 evenOrOdd{
-   buildNumber  = currentBuild.getNumber()      
+   numeroEjecucion = currentBuild.getNumber()      
 }
