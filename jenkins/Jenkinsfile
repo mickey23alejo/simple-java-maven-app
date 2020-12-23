@@ -1,5 +1,29 @@
-@Library('jenkins-shared-library') _
+@Library('dif-jenkins-shared-library') _
+
+qaLibrary {
+  name = "testcargamasiva"
+}
+
+//evenOrOdd(currentBuild.getNumber())
+
+/*myDeliveryPipeline {
+  name = "testcargamasiva"
+  urlYaml = "http://192.3.50.170:8081/repository/maven-releases/pryqa/cadcargamasiva/v1/cadcargamasiva-v1-kubernetes.yaml"
+  namespace = "prynep01"
+}*/
+
+//myDeliveryPipelineLast {
+  //name = "testcargamasiva"
+  //urlYaml = "http://192.3.50.170:8081/repository/maven-releases/pryqa/cadcargamasiva/v1/cadcargamasiva-v1-kubernetes.yaml"
+  //namespace = "prynep01"
+//}
          
- pipelineStandard1 {
-         nombre= 'Sofia'
- }
+ //pipelineStandard1 {
+ //        nombre= 'Sofia'
+// }
+
+/*evenOrOdd{
+   numeroEjecucion = currentBuild.getNumber()      
+}*/
+
+
