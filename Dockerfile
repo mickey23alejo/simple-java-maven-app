@@ -1,8 +1,8 @@
 ##Descargamos una versión concreta de UBUNTU, a través del tag
-#FROM ubuntu:12.04
-FROM microsoft/dotnet:2.1-aspnetcore-runtime as base
-WORKDIR /app
-EXPOSE 80
+FROM ubuntu:12.04 as base
+#FROM microsoft/dotnet:2.1-aspnetcore-runtime AS prueba
+#WORKDIR /app
+#EXPOSE 80
 #MAINTAINER Apasoft Formacion "apasoft.formacion@gmail.com"
 ##Actualizamos el sistema
 #RUN apt-get update
