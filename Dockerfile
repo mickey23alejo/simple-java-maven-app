@@ -1,8 +1,11 @@
 ##Descargamos una versión concreta de UBUNTU, a través del tag
-FROM ubuntu:12.04
-MAINTAINER Apasoft Formacion "apasoft.formacion@gmail.com"
+#FROM ubuntu:12.04
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+WORKDIR /app
+EXPOSE 80
+#MAINTAINER Apasoft Formacion "apasoft.formacion@gmail.com"
 ##Actualizamos el sistema
-RUN apt-get update
+#RUN apt-get update
 ##Instalamos nginx
 ##RUN apt-get install -y nginx
 ##Creamos un fichero index.html en el directorio por defecto de nginx
