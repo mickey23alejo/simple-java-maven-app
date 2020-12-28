@@ -1,6 +1,6 @@
 ##Descargamos una versión concreta de UBUNTU, a través del tag
 #FROM ubuntu:12.04
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+FROM microsoft/dotnet:2.1-aspnetcore-runtime
 WORKDIR /app
 EXPOSE 80
 #MAINTAINER Apasoft Formacion "apasoft.formacion@gmail.com"
