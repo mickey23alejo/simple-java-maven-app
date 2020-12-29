@@ -1,5 +1,11 @@
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM microsoft/dotnet:2.1-sdk AS build
+WORKDIR /src
 ##Descargamos una versión concreta de UBUNTU, a través del tag
-FROM ubuntu:12.04 AS base
+#FROM ubuntu:12.04 AS base
 #FROM microsoft/dotnet:2.1-aspnetcore-runtime AS prueba
 #WORKDIR /app
 #EXPOSE 80
