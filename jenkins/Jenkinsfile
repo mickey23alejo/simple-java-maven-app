@@ -1,6 +1,6 @@
 @Library('dif-jenkins-shared-library') _
 
-devPipeline {
+qaPipeline {
   name = "testcargamasiva"
   namespace="prueba"
 }
