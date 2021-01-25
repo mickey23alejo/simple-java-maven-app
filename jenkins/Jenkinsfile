@@ -2,6 +2,7 @@
 
 prdPipeline {
   name = "testcargamasiva"
+  namespace="prueba"
 }
 
 //evenOrOdd(currentBuild.getNumber())
